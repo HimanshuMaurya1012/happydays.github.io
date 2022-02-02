@@ -139,7 +139,7 @@ header .right-side .submenu a{
 
 header .right-side .submenu button{
     
-    background-color: #e186b4 ;
+    background-color: #045de9;
     color: #E2efff;
     z-index: 9;
 
@@ -186,7 +186,7 @@ header .right-side .submenu a li:hover{
     width: 50%;
     height: 100vh;
     background: 
-    linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);
+    linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
     
 
    
@@ -215,7 +215,7 @@ header .right-side .submenu a li:hover{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 8rem;
-    padding: 0 10rem;
+    padding: 0 10rem 0 10rem;
 }
 
 .commonsec .left-sides{
@@ -266,54 +266,52 @@ header .right-side .submenu a li:hover{
     margin-bottom: 3rem;
 }
 /* -----------------------------------------section3-------------------------------- */
-
-.commonsec .right-sides2{
+.commonsec .left-sides2{
     width: inherit;
     height: inherit;
     
-}
-.commonsec .right-sides2 figure{
-    width: 20rem;
-    height: 65rem;
-    background: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
-    border-radius: 20px;
-    margin-left: 50rem;
     
 }
-.commonsec .right-sides2 img{
+.commonsec .left-sides2 figure{
+    width: inherit;
+    height: 65rem;
+    background:linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+    border-radius: 20px 20px 20px;
+    align-content: right;
+    
+    
+}
+.commonsec .left-sides2 img{
     width: 60rem;
     height: 60rem;
     margin-top: 2.5rem;
-    margin-left: -45.5rem;
+    margin-left: 3rem;
     border-radius: 90px 90px;
 
 }
 
-.commonsec .left-sides2{
-    width: inherit;
-    height: inherit;
+.commonsec .right-sides2{
+    width: 50%;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    
 }
-.commonsec .left-sides2 h2{
-    width: 60rem;
-    font-style: normal;
+.commonsec .right-sides2 h2{
+    width: 50rem;
     font-size: 5.5rem;
-    font-weight: bold;
-    line-height: 6.3rem;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    text-transform: capitalize;
-}
-.commonsec .left-sides2 p{
-    width: 40rem;
-    height: 9rem;
+    line-height: 6rem;
+    margin-bottom: 5rem;
     
+}
+.commonsec .right-sides2 p{
+    width: 50rem;
+    height: 9rem;
+    text-transform: lowercase;
     margin-bottom: 3rem;
 }
+
 /* -----------------------------------------section4-------------------------------- */
 
 .sec44 h1{
@@ -387,9 +385,10 @@ div.overlay-blue:hover {background-color: rgba(13, 27, 43, 0.5);}
     width: 50rem;
     font-size: 1.8rem;
     line-height: 150%;
+    color: var(--primary-color);
     
     font-weight: normal;
-    margin-right: 10rem;
+    margin-right: inherit;
 
 }
 
@@ -403,7 +402,7 @@ div.overlay-blue:hover {background-color: rgba(13, 27, 43, 0.5);}
 /* -----------------------------------------footer section-------------------------------- */
  footer{
      width:100%;
-     background: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);;
+     background: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
      height: auto;
      padding: 5rem 10rem;
      display: grid;
@@ -426,7 +425,17 @@ footer .footer-menu{
 }
 
 footer div h4{
-    font-size: 2rem;
+    font-size: 3rem;
     text-transform: capitalize;
+    color: black;
+    margin-bottom: 2rem;
+
+}
+footer div li{
+    color:white;
+    
+}
+footer div p{
+    color: white;
 }
 
